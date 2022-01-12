@@ -1,0 +1,62 @@
+{
+    "Patient": [
+        {
+            "numero": 1,
+            "nom": "ed",
+            "prenom": "ed",
+            "adresse": "adidogomé",
+            "age": 18,
+            "consultations": [],
+            "pathologie": []
+        },
+        {
+            "numero": 2,
+            "nom": "ed",
+            "prenom": "ed",
+            "adresse": "adidogomé",
+            "age": 18,
+            "consultations": [],
+            "pathologie": []
+        },
+        {
+            "numero": 3,
+            "nom": "ed",
+            "prenom": "ed",
+            "adresse": "adidogomé",
+            "age": 18,
+            "consultations": {
+                "azdzza": {}
+            },
+            "pathologie": []
+        },
+        {
+            "numero": 6,
+            "nom": "edeea",
+            "prenom": "ed",
+            "adresse": "adidogomé",
+            "age": 18,
+            "consultations": [
+                {
+                    "date": "2022-01-11 00:18:42.618938",
+                    "douleur": false,
+                    "polype": false,
+                    "lesion_cervicale": false,
+                    "leucorrhe": false
+                }
+            ]
+        },
+        {
+            "numero": 7,
+            "nom": "abalo",
+            "prenom": "za",
+            "adresse": "adidogomé",
+            "age": 18,
+            "consultations": {
+                "2022-01-11 11:28:18.828142": {
+                    "sphere_loin": 5
+                }
+            }
+        }
+    ],
+    "Maladie": []
+}

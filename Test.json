@@ -1,0 +1,66 @@
+[
+    {
+        "__class__": "patient",
+        "id": 1,
+        "nom": "ed",
+        "age": 18,
+        "sexe": "M"
+    },
+    {
+        "__class__": "AnalysePatient",
+        "sphere_loin": 1,
+        "cylindre_loin": 2,
+        "axe_loin": 3,
+        "sphere_pres": 4,
+        "cylinfre_pres": 7,
+        "axe_pres": 6,
+        "diagnostic": {
+            "AnalyseSphere": "hypermetropie",
+            "AstigmatismePres": [
+                "presence d'astigmatisme: ",
+                7,
+                "l'angle de deformation est ",
+                6
+            ],
+            "AstigmatismeLoin": [
+                "presence d'astigmatisme: ",
+                2,
+                "l'angle de deformation est ",
+                3
+            ]
+        },
+        "__parent__": {
+            "__class__": "patient",
+            "id": 2,
+            "nom": "ed",
+            "age": 18,
+            "sexe": "M"
+        }
+    },
+    {
+        "__class__": "AnalysePatient",
+        "sphere_loin": 0,
+        "cylindre_loin": 0,
+        "axe_loin": 0,
+        "sphere_pres": 0,
+        "cylinfre_pres": 1,
+        "axe_pres": 0,
+        "diagnostic": {
+            "AnalyseSphere": "Oeil normal",
+            "AstigmatismePres": [
+                "presence d'astigmatisme: ",
+                1,
+                "l'angle de deformation est ",
+                0
+            ],
+            "AstigmatismeLoin": "aucune presence d'astigmatisme"
+        },
+        "__parent__": {
+            "__class__": "patient",
+            "id": 3,
+            "nom": "ed",
+            "age": 18,
+            "sexe": "M"
+        }
+    }
+]
